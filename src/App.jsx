@@ -1,4 +1,5 @@
-import Button from "share-components/src/components/Button";
+import Button from "share-components-vite/src/components/Button";
+
 import "./App.css";
 
 function App() {
