@@ -11,7 +11,7 @@ Currently, two official plugins are available:
 
 ```
 npm install
-npm install ../share-components/
+npm install ../share-components-vite/
 ```
 
 然後引用 
