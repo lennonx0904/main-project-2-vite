@@ -1,6 +1,6 @@
-import MenuIcon from '@mui/icons-material/Menu';
 import { useQuery } from '@tanstack/react-query';
 import { OrderAPI } from '@/api';
+import IconMenu from '@/assets/icons/menu.svg';
 
 import './style.scss';
 
@@ -23,7 +23,7 @@ const NavBar = () => {
 
   return (
     <header className="flex w-full px-6 py-4 items-center h-header">
-      <MenuIcon onClick={onToggleMenu} />
+      <img src={IconMenu} alt="icon-menu" className="cursor-pointer" onClick={onToggleMenu} />
       <div>logo</div>
       <div>職人助理</div>
     </header>
