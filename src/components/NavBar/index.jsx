@@ -22,11 +22,11 @@ const NavBar = () => {
   console.log('@data', data?.data?.data);
 
   return (
-    <div className="navbar">
+    <header className="flex w-full px-6 py-4 items-center h-header">
       <MenuIcon onClick={onToggleMenu} />
       <div>logo</div>
       <div>職人助理</div>
-    </div>
+    </header>
   );
 };
 
